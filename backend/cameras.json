@@ -1,0 +1,66 @@
+[
+  {
+    "name": "fire_video",
+    "type": "本地",
+    "video": "/api/cameras/video/fire_video.mp4",
+    "tasks": [
+      "火灾检测"
+    ]
+  },
+  {
+    "name": "no_helmet_demo",
+    "type": "本地",
+    "video": "/api/cameras/video/no_helmet_demo.mp4",
+    "tasks": [
+      "人员佩戴"
+    ]
+  },
+  {
+    "name": "net_camera",
+    "type": "网络摄像头",
+    "video": "http://10.156.232.9:8000",
+    "tasks": [
+      "人员佩戴"
+    ]
+  },
+  {
+    "name": "helmet_demo",
+    "type": "本地",
+    "video": "/api/cameras/video/helmet_demo.mp4",
+    "tasks": [
+      "人员佩戴"
+    ]
+  },
+  {
+    "name": "smoke_demo",
+    "video": "/api/cameras/video/smoke_demo.mp4",
+    "type": "本地文件",
+    "tasks": [
+      "烟雾检测"
+    ]
+  },
+  {
+    "name": "steam_video",
+    "video": "/api/cameras/video/steam_video.mp4",
+    "type": "本地文件",
+    "tasks": [
+      "烟雾检测"
+    ]
+  },
+  {
+    "name": "smoke_video",
+    "video": "/api/cameras/video/smoke_video.mp4",
+    "type": "本地文件",
+    "tasks": [
+      "烟雾检测"
+    ]
+  },
+  {
+    "name": "temp_video",
+    "video": "/api/cameras/video/temp_demo.mp4",
+    "type": "本地文件",
+    "tasks": [
+      "异常温度"
+    ]
+  }
+]
